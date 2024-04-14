@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICode website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style/style.css">
+    
+    <style> #bg-image {
+        background-image: url('images/Fondecran.png');
+        height: 700px; 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+  
+    </style>
+   
+</head>
+<body>
+    <header class="border-bottom border-black border-3">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-info ">
+            <div class="container-fluid">
+              <img src="images/logositeweb.PNG" alt="logo" style = "height: 80px ; width :100px; margin-right:2px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold active" aria-current="page" href="accueil.html">Accueil</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">L'association 
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                        <li><a class="dropdown-item" href="nous-soutenir.html">Nous soutenir</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="cours.html">Cours</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="ressources.html">Ressources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold " aria-current="page" href="contact.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold " aria-current="page" href="gestion.html">Gestion</a>
+                </li>
+                
+              </ul>
+              <button type="button" onclick="window.location.href='inscription.html'" class="btn text-center me-2 bg-dark text-white fw-bold fw-bold" data-mdb-ripple-init>S'inscrire</button>
+              <button type="button" onclick="window.location.href='connexion.html'" class="btn text-center me-2 bg-dark text-white fw-bold fw-bold" data-mdb-ripple-init>Se connecter</button>
+              <button type="button" onclick="window.location.href='inscription.html'" class="btn text-center me-2 bg-dark text-white fw-bold fw-bold" data-mdb-ripple-init>Se deconnecter</button> 
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section class="d-flex justify-content-center align-items-center " id="bg-image">
+            <div class="jumbotron">
+                <h2 class="display-4 fw-bold text-center">Explorez l'univers de la programmation web avec l'<span class="text-success">association </span><span class="text-info">{ICode}</span> </h2>
+                <p class="text-center fw-bold">Bienvenue sur notre site! Nous sommes une association à but non lucratif <br> qui proposes des cours gratuits d'initiations dans différents langages de la programmation web </p>
+                <p  class="text-center fw-bold">Decouvrez , apprenez et créez ... </p>
+                <p  class="text-center fw-bold">Rejoinez une communauté innovante de passionnés du numérique .</p>
+                <div class="d-flex justify-content-center align-items-center mt-5" >
+                    <button type="button" onclick="window.location.href='inscription.html'" class="btn text-center me-2 bg-dark text-white fw-bold fw-bold" data-mdb-ripple-init>Rejoignez nous</button>
+                    <button type="button" onclick="window.location.href='qui-sommes-nous.html'" class="btn text-center bg-dark text-white fw-bold fw-bold" data-mdb-ripple-init>En savoir plus</button>
+                </div>  
+                
+            </div>
+        </section>
+        <section id="mession">
+            <div class="container mt-4">
+                <div class="row  align-items-center ">
+                    <div class="col-12">
+                        <h2 class="mb-0 text-center">Notre mission :</h2>
+                        <p class="text-center">Notre engagement est de faciliter l'initiation des passionnés à la programmation en leurs proposant des cours de base  pour débuter leur aventure dans ce domaine en constante évolution .<br>
+                        Nous pensons que des bases solides sont essentielles pour acquérir les compétences nécessaire dans le monde de la programmation .<br>  
+                        A travers nos cours , nous visons à rendre la programmation accessible à tous, que se soit au collégiens curieux , aux débutant enthousiastes ou aux autodidactes désireux d'apprendre.<br>
+                        En s'ppuyant sur notre experience , nous souhaiton accompagner nos apprenants dans leur apprentissage .</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cours" class="bg-light" >
+            <div class="container py-4 ">
+              <h2 class="mb-0 text-center">Débutez votre parcours en programmation web :</h2>
+              <h5 class="fw-dark fs-5 text-center">Apprenez les bases du HTML ,CSS ,JS ...:</h5>
+              <div class="row gy-4 mt-2 d-flex align-items-center">
+                <div class="col-12 col-md-5">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                    
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/code.jpg" class="d-block" style="height: 250px; width: 100%;" alt="frontend">
+                            <div class="carousel-caption text-white d-none d-md-block">
+                              <h5>Les langages de programmation Frontend</h5>
+                              
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/data.jpg" class="d-block" style="height: 250px; width: 100%;" alt="backend">
+                            <div class="carousel-caption text-white d-none d-md-block">
+                              <h5>Langages de programmation backend</h5>
+                              
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/database.jpg" class="d-block" style="height: 250px; width: 100%;" alt="base de données">
+                            <div class="carousel-caption text-white d-none d-md-block">
+                              <h5>Les base de données</h5>
+                              
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/tools.jpg" class="d-block" style="height: 250px; width: 100%;" alt="outils">
+                            <div class="carousel-caption text-white d-none d-md-block">
+                              <h5>Les outils de programmation</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions " data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="visually-hidden  ">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col-12 offset-md-1 col-md-6">
+                    <p class="text-center">Rejoignez notre association et bénificiez de cours gratuits dans différents langages de programmation web.Que vous soyez un débutant complet ou que vous souhaitiez simplement approfondir vos compétences, nos cours sont conçus pour vous fournir les bases essentielles de la création de sites web. </p>
+                    <div class="row gy-4 mt-4 d-flex align-items-center">
+                        <div class="col-12 offset-md-1 col-md-5 text-center">
+                            <h4>Avantages:</h4>
+                            <p>Cours gratuits dans différents langages de programmations accéssibles pour tous.</p>
+                        </div>
+                        <div class="col-12 offset-md-1 col-md-5  text-center">
+                            <h4 class="text-center">Opportunités:</h4>
+                            <p>Decouvrez le monde de la programmation web et developpez vos compétences</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" >
+                        <button type="button" onclick="window.location.href='cours.html'" class="btn text-center bg-dark text-white fw-bold fw-bold me-3" data-mdb-ripple-init>En savoir plus</button>
+                        <a href="inscription.html">Inscrivez vous maintenant</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section> 
+        
+        <section id="actu" class="m-4 my-5 border border-3 border-info " >
+            <div class="container">
+                <h2 class="mb-0  text-center">Dernières actualités :</h2>
+                <div class="row my-4 mt-4 ">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center ">
+                        <div class="card text-center ">
+                            <div class="card-body ">
+                                <img src="IMAGES/hand.jpg" alt="LOREM" style="height: 50px; width: 50px;">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/hotel.jpg" alt="LOREM" style="height: 50px; width: 50px">
+                                <h5 class="card-title">Lorem ipsum</h5>
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="IMAGES/agent.jpg" alt="LOREM" style="height: 50px; width: 50px;">
+                                <h5 class="card-title"></h5>Lorem ipsum
+                                <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="text-center mt-5 my-5" id="FAQ">
+            <h2>Foire aux questions :</h2>
+            <h6>Trouvez ici la réponse aux questions fréquemment posées sur les cours,l'inscription et l'engagement de notre association.</h6>
+            <div class="container mt-4 my-4">
+                <div class="row  align-items-center ">
+                    <div class="col-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Comment s'inscrire aux cours ?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Pour vous inscrire à nos cours,IL vous suffit de remplir le formulaire d'inscription disponible sur notre site web.Une fois votre inscription validée, vous receverez un mail de confirmation pour creer votre compte utilisateur.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Quels sont les prérequis ?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Nous cours sont ouvert à tout les passionnés et les curieux de monde de la programmation web.Aucun pérequis spécifique n'est nécessaire,mais une connaissance de base en informatique est recommandée. </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                               Combien cela coûte t'il ?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Tous nous cours sont entierement gratuits.Notre association vise à rendre l'apprentissage  des bases de lq programmation web accessible à tous,sans aucune restriction financière.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Combien cela coûte t'il ?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>Tous nous cours sont entierement gratuits.Notre association vise à rendre l'apprentissage  des bases de lq programmation web accessible à tous,sans aucune restriction financière.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Comment contacter l'association ?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>Pour toute demande ou information suplémentaire,vous pouvez nous contacter en utilisant le formulaire de contact disponible sur notre site web.Vous avez aussi la possibilité de nous joindre via telephone ou de nous envoyer un mail.Nous nous fairons un plaisir de vous repondre dans les plus bref délais.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Quelle est la durée des cours ?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>La durée des cours en fonction du sujet et du niveau.Certain cours peuvent durer quelques jours,tandis que d'autres peuvent s'étendre sur plusieurs semaines.Les information sur nos cours et leur planning sont disponible sur notre site web.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Que dire de l'adhésion ?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>L'adhésion à notre association est symbolique et contribue à couvrir les frais administratifs nécessaires au bon fonctionnement de nos activités. Votre soutien financier, aussi modeste soit-il, nous permet de continuer à offrir des services de qualité et à promouvoir notre mission.</p>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <h2>Des questions supplémentaires :</h2>
+            <h6>N'hésitez pas à nous <a href="contact.html">contacter.</a></h6>
+        </section>
+    </main>
+    <footer class="border-top border-3 border-info">
+        <div class="container">
+            <div class="row  align-items-center ">
+                <div class="col-12 col-md-4 text-center">
+                    <a class="navbar-brand fw-bold " href="#Accueil">
+                    <span class=" text-info ">ICode</span></a>
+                    <p class="fw-bold" >Association d'initiation à la programmation informatique .</p>
+                </div>
+                <div class="col-12 col-md-4 text-md-center">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class="text-decoration-none text-dark fw-bold" data-bs-toggle="modal" data-bs-target="#mentionsLegales">
+                        &copyICode-2024-Tous droits réservés</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 text-md-center">
+                    <span class="fw-bold">Suivez-nous sur les réseaux sociaux</span>
+                        <ul class="list-inline mb-0 ">
+                            <li class="list-inline-item ">
+                                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
+                                <i class="fab fa-linkedin fa-2x"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Instagram">
+                                <i class="fab fa-instagram-square fa-2x"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
+                                <i class="fab fa-twitter-square fa-2x"></i></a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+   
+   <!-- Modal -->
+        <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">mention légale</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus leo, volutpat vitae mi ultrices,sollicitudin blandit dui. Mauris ultricies iaculis leo id consequat. Class aptent taciti sociosqu ad litora torquent per conubia
+                        nostra, per inceptos himenaeos. Sed posuere risus viverra ornare porttitor. Nullam egestas nec libero eget sagittis.Phasellus vulputate ante a vulputate vehicula. Suspendisse nec dolor ante.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS bundle  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>                       
